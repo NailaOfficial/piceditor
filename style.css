@@ -1,0 +1,78 @@
+body {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  /* Neon Glow Effect */
+  box-shadow: 0 0 10px #00ffff, 0 0 10px #00ffff, 0 0 30px #00ffff;
+}
+
+.editor-panel, .controls {
+  color: #e6e6e6;
+}
+
+h1 {
+  color: #00ffff;
+}
+
+.filter .options button, 
+.rotate .options button, 
+.preset-filters .options button {
+  background-color: #444;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.filter .options button:hover, 
+.rotate .options button:hover, 
+.preset-filters .options button:hover {
+  background-color: #00ffff;
+  color: #444;
+}
+
+.preview-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 3px;
+  outline: none;
+  background: #444;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.controls button:hover {
+  background: #00ffff;
+  color: #444;
+}
